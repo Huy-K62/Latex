@@ -1,0 +1,86 @@
+\documentclass[10pt,a4paper]{altacv}
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{graphicx}
+
+\definecolor{arsenic}{rgb}{0.23, 0.27, 0.29}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{arsenic}
+\colorlet{accent}{arsenic}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+	\name{Nguyen Dang Chung Duc}
+	\tagline{Job}
+	\photo{2.5cm}{anh_20172484.jpeg}
+	\personalinfo{%
+		% Not all of these are required!
+		% You can add your own with \printinfo{symbol}{detail}
+		\email{nguyendangchungduc1999@gmail.com}
+		\phone{0357221552}
+		\location{Ha Noi}
+		\linkedin{linkedin.com/in/jcleivas}
+	}
+	
+	%% Make the header extend all the way to the right, if you want.
+	\begin{fullwidth}
+		\makecvheader
+	\end{fullwidth}
+	
+	\cvsection[page1sidebar]{Experience}
+	
+	\cvevent{Auxiliar Compensación y Beneficios}{Acción Plus (En misión para Alpina)}{Dic 2017 – Actual}{Bogotá}
+	\begin{itemize}
+		\item 
+		\item 
+		\item 
+		\item 
+		\item 
+		\item 
+	\end{itemize}
+	\divider
+	\cvevent{Profesional de Apoyo}{Universidad Nacional de Colombia}{Junio 2016 - Septiembre 2016}{Bogotá}
+	\begin{itemize}
+		\item 
+		\item 
+		\item 
+	\end{itemize}
+	
+	
+	\cvsection{Studies}
+	
+	\cvevent{Ingeniería Industrial}{HaNoi University of Science and Technology}{Febrero 2011 - Agosto 2016}{Ha Noi}
+	
+	\cvsection{Complementary courses}
+	
+	\cvevent{Uso de Excel y Access para el desarrollo de aplicaciones administrativas}{Sena - Complementaria Virtual}{Junio 2017}{SenaSofiaPlus.edu.co}
+	\divider
+	\cvevent{Fundamentos de SAP}{CORE Consultores}{Febrero 2017}{Bogotá}
+	\divider
+	\cvevent{R Programming}{Johns Hopkins University MOOC}{Mayo 2014}{Coursera.org}
+	
+	\clearpage
+	
+	
+	
+	%% If the NEXT page doesn't start with a \cvsection but you'd
+	%% still like to add a sidebar, then use this command on THIS
+	%% page to add it. The optional argument lets you pull up the 
+	%% sidebar a bit so that it looks aligned with the top of the
+	%% main column.
+	% \addnextpagesidebar[-1ex]{page3sidebar}
+	
+	
+\end{document}
