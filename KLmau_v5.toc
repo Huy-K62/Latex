@@ -2,8 +2,8 @@
 \contentsline {chapter}{{\bf M\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } k\IeC {\'\i } hi\IeC {\d \ecircumflex }u vi\IeC {\'\ecircumflex }t t\IeC {\'\abreve }t}\rm }{ii}{chapter*.2}
 \contentsline {chapter}{\numberline {1}KI\IeC {\'\ECIRCUMFLEX }N TH\IeC {\'\UHORN }C C\IeC {\OHORN } B\IeC {\h A}N}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u v\IeC {\`\ecircumflex } Ad Hoc}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Wireless Ad Hoc Network}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}\IeC {\UHORN }u \IeC {\dj }i\IeC {\h \ecircumflex }m}{1}{section.1.3}
+\contentsline {section}{\numberline {1.2}Wireless Ad Hoc Network}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}\IeC {\UHORN }u \IeC {\dj }i\IeC {\h \ecircumflex }m}{2}{section.1.3}
 \contentsline {chapter}{\numberline {2}C\IeC {\^O}NG VI\IeC {\d \ECIRCUMFLEX }C TRI\IeC {\h \ECIRCUMFLEX }N KHAI}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Ti\IeC {\'\ecircumflex }n h\IeC {\`a}nh c\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t cho m\IeC {\'a}y t\IeC {\'\i }nh nh\IeC {\'u}ng}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Ti\IeC {\'\ecircumflex }n h\IeC {\`a}nh thi\IeC {\'\ecircumflex }t l\IeC {\d \acircumflex }p Ad Hoc Wifi v\IeC {\`a} stream video tr\IeC {\^e}n RPI }{4}{subsection.2.1.1}

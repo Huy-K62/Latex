@@ -5,14 +5,15 @@
 %Người soạn: Nguyen Dang Chung Duc
 %Liên lạc: nguyendangchungduc1999@gmail.com
 %%%%%%%%%%%%%%%%%
-
-\documentclass[12pt,a4paper]{report}
+ 
+\documentclass[12pt,a4paper]{report} 
 \usepackage[utf8]{vietnam}
 \usepackage{amsmath, amsthm, amssymb,latexsym,amscd,amsfonts,enumerate}
 \usepackage[top=2.0cm, bottom=2.5cm, left=3.0cm, right=2.0cm]{geometry}  % căn lề theo quy chuẩn KLTN
 \usepackage{color, fancyhdr, graphicx, wrapfig}
 \usepackage[unicode]{hyperref}
 \usepackage{graphicx}
+\usepackage{hyperref}
 
 \newtheorem{dn}{Định nghĩa}[section]
 \newtheorem{tc}[dn]{Tính chất}
@@ -89,26 +90,33 @@ GPS & Global Positioning System.\\
 
 \section{Giới thiệu về Ad Hoc}
 \hspace{25pt} Ad hoc có thể được hiểu là vì mục đích xây dựng 1 mạng kết nối (chủ yếu là vô tuyến) giữa các thiết bị đầu cuối mà không cần phải dùng các trạm thu phát gốc. Nó cho phép các nút mạng truyền trực tiếp với nhau sử dụng bộ thu phát không dây mà không cần bất cứ cơ sở hạ tầng cố định nào. Dựa trên công nghệ ad hoc, các thiết bị cầm tay (điện thoại di động, PDA, laptop …) và các thiết bị cố định( các trạm cơ sở, các điểm truy cập internet không dây …) có thể được kết nối với nhau và tạo thành mạng toàn cầu.
-\begin{figure}
+
+
+\begin{figure}[h]
 	\begin{center}
 		\includegraphics[scale=0.6]{ad_hoc.png}	
 	\end{center}
-	\caption{Wireless Ad Hoc Network}
+	\caption{Ad Hoc}
 	\label{refhinh1.1}\
 \end{figure}
 
 \section{Wireless Ad Hoc Network}
 \hspace{25pt} Đây là 1 mạng không dây phân tán, mạng này không dựa trên cơ sở hạ tầng có sẵn từ trước như router trong mạng có dây hay điểm truy cập ngẫu nhiên trong những mạng không dây được quản lý. Thay vào đó, mỗi thiết bị (nút) tham gia định tuyến mạng bằng cách chuyển tiếp dữ liệu cho nút khác, vì thế việc quyết định nút nào chuyển tiếp dữ liệu được thực hiện tự động dựa trên cơ sở kết nối mạng và thuật toán định tuyến được sử dụng. Hay có thể hiểu đơn giản là ta có thể thiết lập kết nối không dây trực tiếp với máy tính hoặc thiết bị khác mà không cần kết nối với router hoặc điểm truy cập Wi-fi.
-
-\begin{center}Adhoc
-\begin{figure}[htp]
+\begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=.6]{Ad.png}
+			\includegraphics[scale=.6]{Ad.png}
 	\end{center}
-	\caption{Adhoc}
-	\label{refhinh1}
+	\caption{Wireless Ad Hoc Network}
+	\label{refhinh1.2}
 \end{figure}
-\end{center}
+
+
+
+
+
+
+
+
 
 \section{Ưu điểm}
 \begin{itemize}
@@ -132,8 +140,7 @@ GPS & Global Positioning System.\\
 \subsection{Kết quả thu được}
 \begin{itemize}
 	\item Video thu được đạt chất lượng đủ tốt để phục vụ mục đích của nhóm, tuy nhiên trong quá trình stream xảy ra hiện tượng trễ truyền, thời gian trễ tỉ lệ nghịch với kích thước khung hình
-	\item Video thu được: https://drive.google.com/drive/folders/1G-HXXbuEE2KHUpaKngO-bvXtoh7KBmtC
-		
+	\item Video thu được: \url {https://drive.google.com/drive/folders/1G-HXXbuEE2KHUpaKngO-bvXtoh7KBmtC?usp=sharing}
 \end{itemize}
 \section{Xây dựng thuật toán định vị đối tượng}
 \hspace{25pt} Nhóm đã tiến hành lập trình xong thuật toán định vị đối tượng, sang tuần, nhóm sẽ bay UAV và kiểm nghiệm tính chính xác của thuật toán ngoài thực tế, sau đó sẽ trình bày chi tiết về thuật toán. Hiện tại, nhóm chỉ nêu phần cốt lõi của giải thuật:
